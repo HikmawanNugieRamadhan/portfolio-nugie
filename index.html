@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hikmawan's Portfolio</title>
+    <link href="assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="light-mode">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logos/logo-nug.png" alt="Logo" style="height: 40px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <button id="modeToggle" class="btn btn-sm btn-outline-light">
+                            <i class="fas fa-moon"></i> Dark Mode
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1>Hi, I'm <span class="text-primary">Hikmawan Nugie Ramadhan</span></h1>
+                    <h2 class="mb-4">Frontend Developer Website and Designer</h2>
+                    <p class="lead">Saya adalah Mahasiswa Universitas 17 Agustus 1945 Surabaya, yang memiliki minat mendalam di bidang Teknologi dan Desain</p>
+                    <div class="mt-4">
+                        <a href="#contact" class="btn btn-primary btn-lg me-2">Contact Me</a>
+                        <a href="#portfolio" class="btn btn-outline-primary btn-lg">View Work</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="assets/img/me-home.png" alt="Profile Photo" class="img-fluid rounded-circle d-block mx-auto home-profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- About Section -->
+<section id="about" class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center">About <span class="text-primary">Me</span></h2>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-5">
+                <div class="about-img-wrapper">
+                    <img src="assets/img/me-about.png" alt="About Me" class="img-fluid about-img">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="about-content">
+                    <h3>Frontend Developer & UI Designer</h3>
+                    <p>Saya adalah seorang Mahasiswa Junior Frontend Developer Website dan Designer yang berfokus pada pembuatan antarmuka pengguna yang menarik dan fungsional. Dengan latar belakang pendidikan di Universitas 17 Agustus 1945 Surabaya, Program Studi Sistem dan Teknologi Informasi
+                        saya memiliki passion yang besar terhadap pengembangan web dan desain.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2><span class="text-primary">What I </span>Do</h2>
+                <p class="lead">Areas I specialize in</p>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Web Development Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-code fa-2x text-primary me-3"></i>
+                            <h5 class="card-title mb-0">Web Development</h5>
+                        </div>
+                        <p class="card-text">I create responsive, user-friendly websites with clean code and modern technologies.</p>
+                        <div class="additional-info collapse" id="webDevMore">
+                            <p class="mb-2">Specializing in :</p>
+                            <ul class="skill-list ps-3 mb-3">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>Responsive Design</li>
+                            </ul>
+                        </div>
+                        <div class="text-end mt-3">
+                            <button class="btn btn-sm btn-outline-primary show-more-btn" data-bs-toggle="collapse" data-bs-target="#webDevMore" aria-expanded="false">
+                                <span class="show-more-text">Show More</span> <i class="fas fa-chevron-down ms-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Creative Design Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-paint-brush fa-2x text-primary me-3"></i>
+                            <h5 class="card-title mb-0">Creative Design</h5>
+                        </div>
+                        <p class="card-text">With a multimedia background, I am very interested in creative design.</p>
+                        <div class="additional-info collapse" id="designMore">
+                            <p class="mb-2">Design expertise includes :</p>
+                            <ul class="skill-list ps-3 mb-3">
+                                <li>Logo and Brand identity</li>
+                                <li>Print & packaging</li>
+                                <li>Marketing Materials</li>
+                            </ul>
+                        </div>
+                        <div class="text-end mt-3">
+                            <button class="btn btn-sm btn-outline-primary show-more-btn" data-bs-toggle="collapse" data-bs-target="#designMore" aria-expanded="false">
+                                <span class="show-more-text">Show More</span> <i class="fas fa-chevron-down ms-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Photography Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-camera fa-2x text-primary me-3"></i>
+                            <h5 class="card-title mb-0">Photography</h5>
+                        </div>
+                        <p class="card-text">With an eye for composition and lighting, I capture moments that tell stories.</p>
+                        <div class="additional-info collapse" id="photoMore">
+                            <p class="mb-2">Photography skills:</p>
+                            <ul class="skill-list ps-3 mb-3">
+                                <li>Portrait</li>
+                                <li>Photoshop</li>
+                                <li>Lighting techniques</li>                            
+                            </ul>
+                        </div>
+                        <div class="text-end mt-3">
+                            <button class="btn btn-sm btn-outline-primary show-more-btn" data-bs-toggle="collapse" data-bs-target="#photoMore" aria-expanded="false">
+                                <span class="show-more-text">Show More</span> <i class="fas fa-chevron-down ms-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2>My <span class="text-primary">Portfolio</span></h2>
+                    <p class="lead">A selection of my recent work</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/project/project1-wisatablitar.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Wisata Blitar Website</h5>
+                            <p class="card-text">Sebuah Website tentang Pariwisata Blitar yang dibangun menggunakan Flask, Html dan CSS</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/project/project2-datamhs.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Website Data Mahasiswa</h5>
+                            <p class="card-text">Website untuk KRS Mahasiswa untuk menghitung total Nilai, yang dibangun menggunakan Flask, SQL Alchemy, HTML, dan CSS</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/project/project3-perusahaanEarG.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Website Perusahan Earphone Ear-G</h5>
+                            <p class="card-text">Website Ear-G yang menjual Earphone dengan tema Teknologi dan Kualitas yang Bagus.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <a href="#" class="btn btn-outline-primary btn-lg">View All Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2>Hi <span class="text-primary">Friend!</span></h2>
+                    <p class="lead">I'd love to hear from you</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h3 class="mb-4">Contact Information</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><i class="fas fa-envelope me-2 text-primary"></i> nugikramadhan11@gmail.com</li>
+                        <li class="mb-3"><i class="fas fa-phone me-2 text-primary"></i> +62 857 0648 5815</li>
+                        <li class="mb-3"><i class="fas fa-map-marker-alt me-2 text-primary"></i> Surabaya, Indonesia</li>
+                    </ul>
+                    <div class="social-links mt-4">
+                        <a href="https://instagram.com/yourprofile" target="_blank" class="me-3" title="Instagram">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                        <a href="https://github.com/yourprofile" target="_blank" class="me-3" title="GitHub">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="me-3" title="LinkedIn">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="https://facebook.com/yourprofile" target="_blank" class="me-3" title="Facebook">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 Hikmawan Nugie Ramadhan. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
